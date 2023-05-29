@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+</head>
+<body>
+    <h1>Cadastro EBAC</h1>
+    <form>
+        <label for="nome">Insira seu nome:</label>
+        <input id="nome" type="text" />
+        <br />
+        <label for="email">Insira seu email:</label>
+        <input id="email" type="email" />
+        <br />
+        <label for="senha">Insira sua senha:</label>
+        <input id="senha" type="text" />
+        <br /> <br />
+        <button type="submit">
+            Enviar
+        </button>
+        <button type="reset">
+            Limpar
+        </button>
+    </form>
+</body>
+</html>
