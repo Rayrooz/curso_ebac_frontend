@@ -1,0 +1,153 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#sports
+{
+    background-color: rgba(79, 200, 79, 0.3)
+}
+
+#sports article a
+{
+    background-color: rgba(79, 200, 79, 0.8);
+}
+
+#economy
+{
+    background-color: rgba(231, 217, 33, 0.3);
+}
+
+#economy article a
+{
+    background-color: rgba(231, 217, 33, 0.8);
+}
+
+#entertainment
+{
+    background-color: rgb(241, 11, 195, 0.2);
+}
+
+#entertainment article a
+{
+    background-color: rgb(241, 11, 195, 0.5);
+}
+
+#technology
+{
+    background-color: rgba(9, 1, 239, 0.2);
+}
+
+#technology article a
+{
+    background-color: rgba(9, 1, 239, 0.5);
+}
+
+body > header
+{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #edeaea;
+}
+
+header li
+{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a
+{
+    color: #edeaea;
+    text-decoration: none;
+}
+
+header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home main .container
+{
+    max-width: none;
+}
+@media (min-width: 1200px)
+
+.container
+{
+    width: 90vw;
+}
+
+
+.articles
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article 
+{
+    width: 30%;
+}
+
+.articles article img
+{
+    width: 100%;
+}
+
+.articles article h3
+{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.articles article a
+{
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 550;
+    margin-top: 7px;
+}
+
+.articles article a:hover
+{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3
+{
+    font-size: 24px;
+}
+
+section
+{
+    padding: 24px 0;
+}
+
+section h2
+{
+    font-size: 36px;
+}
+
+section h2,
+.articles article
+{
+    margin-bottom: 16px;
+}
+
